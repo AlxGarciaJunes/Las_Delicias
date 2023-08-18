@@ -1,0 +1,269 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-right: 0%;
+    font-weight: bold;
+    background-color:rgb(241, 8, 210);
+    width: 1200px;
+    height:150px;
+    border-radius: 5px;
+}
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:black;
+}
+.de{
+    color: white;
+}
+.Ofer{
+    background-color: rgb(241, 8, 210);
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 250px;
+    color: white;
+    padding: auto;
+    width: 70%;
+    height: 200px;
+    padding-top: 150px;
+}
+.pro{
+    margin-left: 30px;
+    color: white;
+    background-color: rgb(241, 8, 210);
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.container{
+    background-color: white;
+    display: flex;
+
+}
+.box1{
+    color: white;
+    margin-left: 120px;
+    border: 8px rgb(241, 8, 210) solid;
+    
+}
+.box2{
+    color: white;
+    margin-left: 120px;
+    border: 8px rgb(241, 8, 210) solid;
+}
+.box3{
+    color: white;
+    margin-left: 120px;
+    border: 8px rgb(241, 8, 210) solid;;
+}
+.ven1{
+    width: 250px;
+    height: 300px;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+    
+}
+.imas{
+    height: 300px;
+    width: 250px;
+    
+    
+}
+.pie{
+    background-color:rgb(241, 8, 210);
+    color: white;
+    width: 1218px;
+    height:300px;
+    border-radius: 5px;
+    display: flex;
+    padding-right: 3%;
+}
+.info{
+    margin-left: 20px;
+
+}
+.Postres{
+    margin-left:80px;
+    
+}
+.pos0{
+    margin-left: 70px;
+    border: 5px solid rgb(241, 8, 210);
+    width: 200px;
+    height: 190px;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+.pos1{
+    margin-left: 60px;
+    border: 5px solid rgb(241, 8, 210);
+    width: 200px;
+    height: 190px;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+.Precios-De-Postres{
+    font-size: 25px;
+    display: flex;
+}    
+.Precios1{
+    margin-left: 150px;
+}
+.Precios2{
+    margin-left: 140px;
+}
+.Precios3{
+    margin-left: 135px;
+}
+.Precios4{
+    margin-left: 155px;
+}
+.Precios5{
+    margin-left: 200px;
+}
+.Precios6{
+    margin-left: 200px;
+}
+.Precios7{
+    margin-left: 200px;
+}
+.boda{
+    margin-left: 30px;
+    font-size: 35px;
+}
+.PostresCa{
+    margin-left: 150px;
+}
+.pos2{
+    margin-left: 150px;
+    border: 5px solid rgb(241, 8, 210);
+    width: 200px;
+    height: 190px;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+.imgnosotros{
+    margin-left:280px;
+    height: 350px;
+}
+.nosotras{
+    display: flex;
+    background-color: white;
+    width:100%;
+}
+.texta{
+    background-color:white;
+    width: 25%;
+    border-radius:2%;
+    margin-left: 20%;
+    font-size:150%;
+    height:70%;
+}
+.textaa{
+    background-color: white;
+    width: 25%;
+    border-radius:2%;
+    margin-left: 20%;
+    font-size:150%;
+    height:70%;
+}
+.quien{
+    margin-left:30px;
+}
+.rede{
+    margin-left:45%;
+    width: 5%;
+    height: 15%;
+}
+.rede2{
+    width: 5%;
+    height: 15%;
+}
+.rede3{
+    width: 5%;
+    height: 15%;
+}
+.pietodo{
+    background-color: rgb(241, 8, 210);
+}
+/*formulario*/
+.fortodo{
+    margin-left: 35%;
+}
+.formulario0{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgb(241, 8, 210);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+}
+.formulario1{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.cont{
+    color: rgb(241, 8, 210);
+    font-size: 35px;
+}
+label{
+    color: rgb(241, 8, 210);
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+input,textarea{
+    padding: 17px 25px ;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color:rgb(241, 169, 238) ;
+    border: 2px solid #f0faf1;
+    color: white;
+    outline: none;
+}
+input::placeholder,textarea::placeholder{
+    color: rgb(207, 161, 207);
+}
+.enviar1{
+    font-size: 16px;
+    color: black;
+    border: 0;
+    border-radius: 25px;
+    background-color:white ;
+    box-shadow: 0 0 20px rgb(241, 169, 238);
+    cursor: pointer;
+}
+
+img.ven1:hover{
+    transform: scale(1.1,1.1);
+}
+img.pos1:hover{
+    transform: scale(1.1,1.1);
+}
+img.pos0:hover{
+    transform: scale(1.1,1.1);
+}
+img.pos2:hover{
+    transform: scale(1.1,1.1);
+}
+
